@@ -47,10 +47,9 @@ position is categorical
 
 ### Numerical Descriptive Results
 ```{r}
-boxplot(pushups~position,data=mydata)
+favstats(pushups~position,data=mydata)
 ```
-the box plots shows that players in skill positions typically do more push ups in 2 minutes than do players in the line position.
-
+This table showns the average number of push ups done by the players in line positions was 17, meaning the numbers of push ups are done in 2 minutes done by skill players was 50
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
